@@ -1,7 +1,7 @@
-import "./App.css";
+import { Router } from "./components/Router";
 
 function App() {
-  return <h1 className="text-brand-turquoise">Expense Tracker</h1>;
+  return <Router />;
 }
 
 export default App;
